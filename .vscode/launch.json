@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.1.0",
+    "configurations": [{
+        "name": "dev",
+        "request": "launch",
+        "type": "dart",
+        "args": [
+            "--dart-define=ENVIRONMENT=dev"
+        ]
+    }, {
+        "name": "demo",
+        "request": "launch",
+        "type": "dart",
+        "args": [
+            "--dart-define=ENVIRONMENT=demo"
+        ]
+    }, {
+        "name": "prod",
+        "request": "launch",
+        "type": "dart",
+        "args": [
+            "--dart-define=ENVIRONMENT=prod"
+        ]
+    }]
+}
