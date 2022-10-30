@@ -1,8 +1,15 @@
 {
   "projects": {
-    "default": "test-project-6eaba",
-    "prod": "web-8f365",
-    "dev": "web-dev-8f365",
-    "demo": "web-demo-8f365"
-  }
+    "default": "test-project-6eaba"
+  },
+  "targets": {
+    "test-project-6eaba": {
+      "hosting": {
+        "web-dev-8f365": [
+          "build/web"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }

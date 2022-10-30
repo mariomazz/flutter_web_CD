@@ -1,16 +1,27 @@
 {
-  "hosting": {
-    "public": "build/web/",
+  "hosting": [{
+    "site": "web-dev-8f365",
+    "public": "build/web",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "build/web/"
-      }
     ]
-  }
+  }, {
+    "site": "web-demo-8f365",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }, {
+    "site": "web-8f365",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }]
 }
